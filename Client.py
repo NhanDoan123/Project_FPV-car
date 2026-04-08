@@ -36,7 +36,7 @@ def Controller():
         time.sleep(0.1)
 
 
-UDP_IP = "192.168.12.164"
+UDP_IP = "###.###.###.###"
 UDP_port = 4210
 control_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
